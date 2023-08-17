@@ -1,0 +1,5 @@
+INSERT INTO `accounts` VALUES (1, 3970);
+INSERT INTO `accounts` VALUES (2, 602);
+INSERT INTO `accounts` VALUES (3, 300);
+INSERT INTO `accounts` VALUES (4, 300);
+INSERT INTO `accounts` VALUES (5, 300);

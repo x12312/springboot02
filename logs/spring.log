@@ -1,0 +1,574 @@
+2023-08-17 09:17:05.885  INFO 2804 --- [main] com.yc.biz.AccountBizImplTest            : Starting AccountBizImplTest using Java 1.8.0_201 on LAPTOP-F4OC1A0M with PID 2804 (started by 33714 in F:\java\S3\spring\yuanma\springboot02)
+2023-08-17 09:17:05.892  INFO 2804 --- [main] com.yc.biz.AccountBizImplTest            : The following 1 profile is active: "test"
+2023-08-17 09:17:05.938  WARN 2804 --- [main] o.s.b.c.config.ConfigDataEnvironment     : Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 115:13]
+2023-08-17 09:17:05.939  WARN 2804 --- [main] o.s.b.c.config.ConfigDataEnvironment     : Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 111:13]
+2023-08-17 09:17:06.847  INFO 2804 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 09:17:06.849  INFO 2804 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-17 09:17:06.871  INFO 2804 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 0 JDBC repository interfaces.
+2023-08-17 09:17:06.890  INFO 2804 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 09:17:06.892  INFO 2804 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-08-17 09:17:06.905  INFO 2804 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2023-08-17 09:17:13.553  INFO 2804 --- [main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2023-08-17 09:17:13.565  INFO 2804 --- [main] com.yc.biz.AccountBizImplTest            : Started AccountBizImplTest in 8.137 seconds (JVM running for 9.067)
+2023-08-17 09:17:14.003  INFO 2804 --- [main] com.yc.biz.AccountBizImplTest            : Account(accountid=19, money=126.0)
+2023-08-17 09:17:14.016  INFO 2804 --- [SpringApplicationShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2023-08-17 09:17:46.440  INFO 17484 --- [main] com.yc.biz.AccountBizImplTest            : Starting AccountBizImplTest using Java 1.8.0_201 on LAPTOP-F4OC1A0M with PID 17484 (started by 33714 in F:\java\S3\spring\yuanma\springboot02)
+2023-08-17 09:17:46.441  INFO 17484 --- [main] com.yc.biz.AccountBizImplTest            : The following 1 profile is active: "test"
+2023-08-17 09:17:46.471  WARN 17484 --- [main] o.s.b.c.config.ConfigDataEnvironment     : Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 115:13]
+2023-08-17 09:17:46.472  WARN 17484 --- [main] o.s.b.c.config.ConfigDataEnvironment     : Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 111:13]
+2023-08-17 09:17:47.192  INFO 17484 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 09:17:47.194  INFO 17484 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-17 09:17:47.208  INFO 17484 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 JDBC repository interfaces.
+2023-08-17 09:17:47.220  INFO 17484 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 09:17:47.222  INFO 17484 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-08-17 09:17:47.232  INFO 17484 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2023-08-17 09:17:53.478  INFO 17484 --- [main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2023-08-17 09:17:53.490  INFO 17484 --- [main] com.yc.biz.AccountBizImplTest            : Started AccountBizImplTest in 7.385 seconds (JVM running for 8.207)
+2023-08-17 09:17:53.902  INFO 17484 --- [main] com.yc.biz.AccountBizImplTest            : Account(accountid=2, money=168.0)
+2023-08-17 09:17:53.915  INFO 17484 --- [SpringApplicationShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2023-08-17 09:19:18.172  INFO 22920 --- [main] com.yc.biz.AccountBizImplTest            : Starting AccountBizImplTest using Java 1.8.0_201 on LAPTOP-F4OC1A0M with PID 22920 (started by 33714 in F:\java\S3\spring\yuanma\springboot02)
+2023-08-17 09:19:18.173  INFO 22920 --- [main] com.yc.biz.AccountBizImplTest            : The following 1 profile is active: "test"
+2023-08-17 09:19:18.204  WARN 22920 --- [main] o.s.b.c.config.ConfigDataEnvironment     : Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 115:13]
+2023-08-17 09:19:18.204  WARN 22920 --- [main] o.s.b.c.config.ConfigDataEnvironment     : Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 111:13]
+2023-08-17 09:19:18.953  INFO 22920 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 09:19:18.955  INFO 22920 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-17 09:19:18.969  INFO 22920 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 JDBC repository interfaces.
+2023-08-17 09:19:18.980  INFO 22920 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 09:19:18.981  INFO 22920 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-08-17 09:19:18.991  INFO 22920 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2023-08-17 09:19:25.151  INFO 22920 --- [main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2023-08-17 09:19:25.163  INFO 22920 --- [main] com.yc.biz.AccountBizImplTest            : Started AccountBizImplTest in 7.32 seconds (JVM running for 8.123)
+2023-08-17 09:19:25.559  INFO 22920 --- [SpringApplicationShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2023-08-17 09:22:02.201  INFO 3100 --- [main] com.yc.biz.AccountBizImplTest            : Starting AccountBizImplTest using Java 1.8.0_201 on LAPTOP-F4OC1A0M with PID 3100 (started by 33714 in F:\java\S3\spring\yuanma\springboot02)
+2023-08-17 09:22:02.202  INFO 3100 --- [main] com.yc.biz.AccountBizImplTest            : The following 1 profile is active: "test"
+2023-08-17 09:22:02.234  WARN 3100 --- [main] o.s.b.c.config.ConfigDataEnvironment     : Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 115:13]
+2023-08-17 09:22:02.234  WARN 3100 --- [main] o.s.b.c.config.ConfigDataEnvironment     : Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 111:13]
+2023-08-17 09:22:03.065  INFO 3100 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 09:22:03.067  INFO 3100 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-17 09:22:03.082  INFO 3100 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 JDBC repository interfaces.
+2023-08-17 09:22:03.094  INFO 3100 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 09:22:03.095  INFO 3100 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-08-17 09:22:03.106  INFO 3100 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2023-08-17 09:22:09.256  INFO 3100 --- [main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2023-08-17 09:22:09.270  INFO 3100 --- [main] com.yc.biz.AccountBizImplTest            : Started AccountBizImplTest in 7.403 seconds (JVM running for 8.236)
+2023-08-17 09:22:09.736  INFO 3100 --- [main] com.yc.biz.AccountBizImplTest            : Account(accountid=3, money=70.0)
+2023-08-17 09:22:09.747  INFO 3100 --- [SpringApplicationShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2023-08-17 09:43:53.337  INFO 14584 --- [main] com.yc.redis.RedisTest                   : Starting RedisTest using Java 1.8.0_201 on LAPTOP-F4OC1A0M with PID 14584 (started by 33714 in F:\java\S3\spring\yuanma\springboot02)
+2023-08-17 09:43:53.338  INFO 14584 --- [main] com.yc.redis.RedisTest                   : The following 1 profile is active: "test"
+2023-08-17 09:43:53.374  WARN 14584 --- [main] o.s.b.c.config.ConfigDataEnvironment     : Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 115:13]
+2023-08-17 09:43:53.374  WARN 14584 --- [main] o.s.b.c.config.ConfigDataEnvironment     : Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 111:13]
+2023-08-17 09:43:54.165  INFO 14584 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 09:43:54.167  INFO 14584 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-17 09:43:54.182  INFO 14584 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 JDBC repository interfaces.
+2023-08-17 09:43:54.193  INFO 14584 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 09:43:54.194  INFO 14584 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-08-17 09:43:54.204  INFO 14584 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2023-08-17 09:44:00.453  INFO 14584 --- [main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2023-08-17 09:44:00.469  INFO 14584 --- [main] com.yc.redis.RedisTest                   : Started RedisTest in 7.472 seconds (JVM running for 8.291)
+2023-08-17 09:44:01.596  INFO 14584 --- [SpringApplicationShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2023-08-17 10:10:36.596  INFO 23412 --- [main] com.yc.redis.RedisTest                   : Starting RedisTest using Java 1.8.0_201 on LAPTOP-F4OC1A0M with PID 23412 (started by 33714 in F:\java\S3\spring\yuanma\springboot02)
+2023-08-17 10:10:36.597  INFO 23412 --- [main] com.yc.redis.RedisTest                   : The following 1 profile is active: "test"
+2023-08-17 10:10:36.628  WARN 23412 --- [main] o.s.b.c.config.ConfigDataEnvironment     : Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 115:13]
+2023-08-17 10:10:36.629  WARN 23412 --- [main] o.s.b.c.config.ConfigDataEnvironment     : Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 111:13]
+2023-08-17 10:10:37.366  INFO 23412 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 10:10:37.368  INFO 23412 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-17 10:10:37.384  INFO 23412 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 0 JDBC repository interfaces.
+2023-08-17 10:10:37.395  INFO 23412 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 10:10:37.396  INFO 23412 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-08-17 10:10:37.407  INFO 23412 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2023-08-17 10:10:43.434  INFO 23412 --- [main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2023-08-17 10:10:43.445  INFO 23412 --- [main] com.yc.redis.RedisTest                   : Started RedisTest in 7.183 seconds (JVM running for 7.978)
+2023-08-17 10:10:44.478  INFO 23412 --- [SpringApplicationShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2023-08-17 10:11:46.043  INFO 10528 --- [restartedMain] com.yc.AppMain                           : Starting AppMain using Java 1.8.0_201 on LAPTOP-F4OC1A0M with PID 10528 (F:\java\S3\spring\yuanma\springboot02\target\classes started by 33714 in F:\java\S3\spring\yuanma\springboot02)
+2023-08-17 10:11:46.044  INFO 10528 --- [restartedMain] com.yc.AppMain                           : The following 1 profile is active: "test"
+2023-08-17 10:11:46.076  WARN 10528 --- [restartedMain] o.s.b.c.config.ConfigDataEnvironment     : Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 115:13]
+2023-08-17 10:11:46.077  WARN 10528 --- [restartedMain] o.s.b.c.config.ConfigDataEnvironment     : Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 111:13]
+2023-08-17 10:11:46.078  INFO 10528 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-08-17 10:11:46.078  INFO 10528 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-08-17 10:11:46.677  INFO 10528 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 10:11:46.678  INFO 10528 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-17 10:11:46.688  INFO 10528 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 JDBC repository interfaces.
+2023-08-17 10:11:46.697  INFO 10528 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 10:11:46.698  INFO 10528 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-08-17 10:11:46.706  INFO 10528 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 Redis repository interfaces.
+2023-08-17 10:11:47.164  INFO 10528 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1085 ms
+2023-08-17 10:11:50.178  INFO 10528 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-08-17 10:11:50.474  INFO 10528 --- [restartedMain] o.s.b.w.e.undertow.UndertowWebServer     : Undertow started on port(s) 8080 (http)
+2023-08-17 10:11:50.596  INFO 10528 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2023-08-17 10:11:50.605  INFO 10528 --- [restartedMain] com.yc.AppMain                           : Started AppMain in 4.908 seconds (JVM running for 6.236)
+2023-08-17 10:27:58.569  INFO 16932 --- [main] com.yc.redis.RedisTest                   : Starting RedisTest using Java 1.8.0_201 on LAPTOP-F4OC1A0M with PID 16932 (started by 33714 in F:\java\S3\spring\yuanma\springboot02)
+2023-08-17 10:27:58.570  INFO 16932 --- [main] com.yc.redis.RedisTest                   : The following 1 profile is active: "test"
+2023-08-17 10:27:58.604  WARN 16932 --- [main] o.s.b.c.config.ConfigDataEnvironment     : Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 115:13]
+2023-08-17 10:27:58.604  WARN 16932 --- [main] o.s.b.c.config.ConfigDataEnvironment     : Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 111:13]
+2023-08-17 10:27:59.404  INFO 16932 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 10:27:59.406  INFO 16932 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-17 10:27:59.423  INFO 16932 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 0 JDBC repository interfaces.
+2023-08-17 10:27:59.437  INFO 16932 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 10:27:59.439  INFO 16932 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-08-17 10:27:59.454  INFO 16932 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2023-08-17 10:28:05.661  INFO 16932 --- [main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2023-08-17 10:28:05.673  INFO 16932 --- [main] com.yc.redis.RedisTest                   : Started RedisTest in 7.442 seconds (JVM running for 8.288)
+2023-08-17 10:28:06.835  INFO 16932 --- [SpringApplicationShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2023-08-17 10:39:59.441  INFO 15308 --- [main] com.yc.redis.RedisTest                   : Starting RedisTest using Java 1.8.0_201 on LAPTOP-F4OC1A0M with PID 15308 (started by 33714 in F:\java\S3\spring\yuanma\springboot02)
+2023-08-17 10:39:59.442  INFO 15308 --- [main] com.yc.redis.RedisTest                   : The following 1 profile is active: "test"
+2023-08-17 10:39:59.479  WARN 15308 --- [main] o.s.b.c.config.ConfigDataEnvironment     : Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 115:13]
+2023-08-17 10:39:59.479  WARN 15308 --- [main] o.s.b.c.config.ConfigDataEnvironment     : Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 111:13]
+2023-08-17 10:40:00.271  INFO 15308 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 10:40:00.273  INFO 15308 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-17 10:40:00.288  INFO 15308 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 JDBC repository interfaces.
+2023-08-17 10:40:00.299  INFO 15308 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 10:40:00.300  INFO 15308 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-08-17 10:40:00.311  INFO 15308 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2023-08-17 10:40:06.600  INFO 15308 --- [main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2023-08-17 10:40:06.613  INFO 15308 --- [main] com.yc.redis.RedisTest                   : Started RedisTest in 7.538 seconds (JVM running for 8.42)
+2023-08-17 10:40:07.653  INFO 15308 --- [SpringApplicationShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2023-08-17 10:46:32.820  INFO 27668 --- [main] com.yc.redis.RedisTest                   : Starting RedisTest using Java 1.8.0_201 on LAPTOP-F4OC1A0M with PID 27668 (started by 33714 in F:\java\S3\spring\yuanma\springboot02)
+2023-08-17 10:46:32.821  INFO 27668 --- [main] com.yc.redis.RedisTest                   : The following 1 profile is active: "test"
+2023-08-17 10:46:32.852  WARN 27668 --- [main] o.s.b.c.config.ConfigDataEnvironment     : Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 115:13]
+2023-08-17 10:46:32.852  WARN 27668 --- [main] o.s.b.c.config.ConfigDataEnvironment     : Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 111:13]
+2023-08-17 10:46:33.690  INFO 27668 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 10:46:33.691  INFO 27668 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-17 10:46:33.704  INFO 27668 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 JDBC repository interfaces.
+2023-08-17 10:46:33.714  INFO 27668 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 10:46:33.715  INFO 27668 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-08-17 10:46:33.724  INFO 27668 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2023-08-17 10:46:39.822  INFO 27668 --- [main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2023-08-17 10:46:39.834  INFO 27668 --- [main] com.yc.redis.RedisTest                   : Started RedisTest in 7.354 seconds (JVM running for 8.156)
+2023-08-17 10:46:40.917  INFO 27668 --- [SpringApplicationShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2023-08-17 10:52:37.119  INFO 22100 --- [main] com.yc.biz.AccountBizImplTest            : Starting AccountBizImplTest using Java 1.8.0_201 on LAPTOP-F4OC1A0M with PID 22100 (started by 33714 in F:\java\S3\spring\yuanma\springboot02)
+2023-08-17 10:52:37.120  INFO 22100 --- [main] com.yc.biz.AccountBizImplTest            : The following 1 profile is active: "test"
+2023-08-17 10:52:37.154  WARN 22100 --- [main] o.s.b.c.config.ConfigDataEnvironment     : Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 115:13]
+2023-08-17 10:52:37.154  WARN 22100 --- [main] o.s.b.c.config.ConfigDataEnvironment     : Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 111:13]
+2023-08-17 10:52:37.879  INFO 22100 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 10:52:37.880  INFO 22100 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-17 10:52:37.894  INFO 22100 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 JDBC repository interfaces.
+2023-08-17 10:52:37.905  INFO 22100 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 10:52:37.906  INFO 22100 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-08-17 10:52:37.916  INFO 22100 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2023-08-17 10:52:43.878  INFO 22100 --- [main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2023-08-17 10:52:43.891  INFO 22100 --- [main] com.yc.biz.AccountBizImplTest            : Started AccountBizImplTest in 7.109 seconds (JVM running for 7.917)
+2023-08-17 10:52:44.289  INFO 22100 --- [main] com.yc.biz.AccountBizImplTest            : Account(accountid=2, money=599.0)
+2023-08-17 10:52:44.301  INFO 22100 --- [SpringApplicationShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2023-08-17 11:07:15.024  INFO 28416 --- [restartedMain] com.yc.AppMain                           : Starting AppMain using Java 1.8.0_201 on LAPTOP-F4OC1A0M with PID 28416 (F:\java\S3\spring\yuanma\springboot02\target\classes started by 33714 in F:\java\S3\spring\yuanma\springboot02)
+2023-08-17 11:07:15.025  INFO 28416 --- [restartedMain] com.yc.AppMain                           : The following 1 profile is active: "test"
+2023-08-17 11:07:15.067  WARN 28416 --- [restartedMain] o.s.b.c.config.ConfigDataEnvironment     : Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 115:13]
+2023-08-17 11:07:15.067  WARN 28416 --- [restartedMain] o.s.b.c.config.ConfigDataEnvironment     : Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 111:13]
+2023-08-17 11:07:15.069  INFO 28416 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-08-17 11:07:15.069  INFO 28416 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-08-17 11:07:15.768  INFO 28416 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 11:07:15.769  INFO 28416 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-17 11:07:15.782  INFO 28416 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 JDBC repository interfaces.
+2023-08-17 11:07:15.793  INFO 28416 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 11:07:15.794  INFO 28416 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-08-17 11:07:15.805  INFO 28416 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2023-08-17 11:07:16.421  INFO 28416 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1351 ms
+2023-08-17 11:07:20.530  INFO 28416 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-08-17 11:07:20.969  INFO 28416 --- [restartedMain] o.s.b.w.e.undertow.UndertowWebServer     : Undertow started on port(s) 8080 (http)
+2023-08-17 11:07:21.120  INFO 28416 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2023-08-17 11:07:21.134  INFO 28416 --- [restartedMain] com.yc.AppMain                           : Started AppMain in 6.544 seconds (JVM running for 8.089)
+2023-08-17 11:07:31.244  INFO 28416 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-08-17 11:07:31.246  INFO 28416 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-08-17 11:12:01.321  INFO 22204 --- [main] com.yc.biz.AccountBizImplTest            : Starting AccountBizImplTest using Java 1.8.0_201 on LAPTOP-F4OC1A0M with PID 22204 (started by 33714 in F:\java\S3\spring\yuanma\springboot02)
+2023-08-17 11:12:01.322  INFO 22204 --- [main] com.yc.biz.AccountBizImplTest            : The following 1 profile is active: "test"
+2023-08-17 11:12:01.360  WARN 22204 --- [main] o.s.b.c.config.ConfigDataEnvironment     : Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 115:13]
+2023-08-17 11:12:01.360  WARN 22204 --- [main] o.s.b.c.config.ConfigDataEnvironment     : Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 111:13]
+2023-08-17 11:12:02.377  INFO 22204 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 11:12:02.379  INFO 22204 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-17 11:12:02.399  INFO 22204 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 0 JDBC repository interfaces.
+2023-08-17 11:12:02.414  INFO 22204 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 11:12:02.417  INFO 22204 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-08-17 11:12:02.432  INFO 22204 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2023-08-17 11:12:09.700  INFO 22204 --- [main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2023-08-17 11:12:09.717  INFO 22204 --- [main] com.yc.biz.AccountBizImplTest            : Started AccountBizImplTest in 8.784 seconds (JVM running for 9.767)
+2023-08-17 11:12:10.266  INFO 22204 --- [main] com.yc.biz.AccountBizImplTest            : Account(accountid=2, money=599.0)
+2023-08-17 11:12:10.278  INFO 22204 --- [SpringApplicationShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2023-08-17 11:14:57.798  INFO 25004 --- [restartedMain] com.yc.AppMain                           : Starting AppMain using Java 1.8.0_201 on LAPTOP-F4OC1A0M with PID 25004 (F:\java\S3\spring\yuanma\springboot02\target\classes started by 33714 in F:\java\S3\spring\yuanma\springboot02)
+2023-08-17 11:14:57.800  INFO 25004 --- [restartedMain] com.yc.AppMain                           : The following 1 profile is active: "test"
+2023-08-17 11:14:57.837  WARN 25004 --- [restartedMain] o.s.b.c.config.ConfigDataEnvironment     : Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 115:13]
+2023-08-17 11:14:57.837  WARN 25004 --- [restartedMain] o.s.b.c.config.ConfigDataEnvironment     : Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 111:13]
+2023-08-17 11:14:57.839  INFO 25004 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-08-17 11:14:57.839  INFO 25004 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-08-17 11:14:58.549  INFO 25004 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 11:14:58.550  INFO 25004 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-17 11:14:58.563  INFO 25004 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 JDBC repository interfaces.
+2023-08-17 11:14:58.575  INFO 25004 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 11:14:58.576  INFO 25004 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-08-17 11:14:58.586  INFO 25004 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2023-08-17 11:14:59.148  INFO 25004 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1309 ms
+2023-08-17 11:15:02.492  INFO 25004 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-08-17 11:15:02.836  INFO 25004 --- [restartedMain] o.s.b.w.e.undertow.UndertowWebServer     : Undertow started on port(s) 8080 (http)
+2023-08-17 11:15:02.981  INFO 25004 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2023-08-17 11:15:02.991  INFO 25004 --- [restartedMain] com.yc.AppMain                           : Started AppMain in 5.595 seconds (JVM running for 7.12)
+2023-08-17 11:15:06.396  INFO 25004 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-08-17 11:15:06.400  INFO 25004 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2023-08-17 11:15:54.574  INFO 16756 --- [main] com.yc.biz.AccountBizImplTest            : Starting AccountBizImplTest using Java 1.8.0_201 on LAPTOP-F4OC1A0M with PID 16756 (started by 33714 in F:\java\S3\spring\yuanma\springboot02)
+2023-08-17 11:15:54.575  INFO 16756 --- [main] com.yc.biz.AccountBizImplTest            : The following 1 profile is active: "test"
+2023-08-17 11:15:54.608  WARN 16756 --- [main] o.s.b.c.config.ConfigDataEnvironment     : Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 115:13]
+2023-08-17 11:15:54.608  WARN 16756 --- [main] o.s.b.c.config.ConfigDataEnvironment     : Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 111:13]
+2023-08-17 11:15:55.450  INFO 16756 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 11:15:55.452  INFO 16756 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-17 11:15:55.468  INFO 16756 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 0 JDBC repository interfaces.
+2023-08-17 11:15:55.480  INFO 16756 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 11:15:55.482  INFO 16756 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-08-17 11:15:55.493  INFO 16756 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2023-08-17 11:16:02.489  INFO 16756 --- [main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2023-08-17 11:16:02.505  INFO 16756 --- [main] com.yc.biz.AccountBizImplTest            : Started AccountBizImplTest in 8.294 seconds (JVM running for 9.197)
+2023-08-17 11:16:02.948  INFO 16756 --- [main] com.yc.biz.AccountBizImplTest            : Account(accountid=2, money=168.0)
+2023-08-17 11:16:02.960  INFO 16756 --- [SpringApplicationShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2023-08-17 11:34:57.982  INFO 15828 --- [restartedMain] com.yc.AppMain                           : Starting AppMain using Java 1.8.0_201 on LAPTOP-F4OC1A0M with PID 15828 (F:\java\S3\spring\yuanma\springboot02\target\classes started by 33714 in F:\java\S3\spring\yuanma\springboot02)
+2023-08-17 11:34:57.983  INFO 15828 --- [restartedMain] com.yc.AppMain                           : The following 1 profile is active: "test"
+2023-08-17 11:34:58.018  WARN 15828 --- [restartedMain] o.s.b.c.config.ConfigDataEnvironment     : Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 116:13]
+2023-08-17 11:34:58.019  WARN 15828 --- [restartedMain] o.s.b.c.config.ConfigDataEnvironment     : Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 112:13]
+2023-08-17 11:34:58.020  INFO 15828 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-08-17 11:34:58.020  INFO 15828 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-08-17 11:34:58.683  INFO 15828 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 11:34:58.684  INFO 15828 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-17 11:34:58.697  INFO 15828 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 JDBC repository interfaces.
+2023-08-17 11:34:58.706  INFO 15828 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 11:34:58.708  INFO 15828 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-08-17 11:34:58.716  INFO 15828 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2023-08-17 11:35:04.433  INFO 1752 --- [restartedMain] com.yc.AppMain                           : Starting AppMain using Java 1.8.0_201 on LAPTOP-F4OC1A0M with PID 1752 (F:\java\S3\spring\yuanma\springboot02\target\classes started by 33714 in F:\java\S3\spring\yuanma\springboot02)
+2023-08-17 11:35:04.434  INFO 1752 --- [restartedMain] com.yc.AppMain                           : The following 1 profile is active: "test"
+2023-08-17 11:35:04.469  WARN 1752 --- [restartedMain] o.s.b.c.config.ConfigDataEnvironment     : Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 116:13]
+2023-08-17 11:35:04.469  WARN 1752 --- [restartedMain] o.s.b.c.config.ConfigDataEnvironment     : Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 112:13]
+2023-08-17 11:35:04.470  INFO 1752 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-08-17 11:35:04.470  INFO 1752 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-08-17 11:35:05.147  INFO 1752 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 11:35:05.148  INFO 1752 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-17 11:35:05.160  INFO 1752 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 JDBC repository interfaces.
+2023-08-17 11:35:05.169  INFO 1752 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 11:35:05.170  INFO 1752 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-08-17 11:35:05.180  INFO 1752 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2023-08-17 11:35:05.750  INFO 1752 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1279 ms
+2023-08-17 11:35:08.940  INFO 1752 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-08-17 11:35:09.266  INFO 1752 --- [restartedMain] o.s.b.w.e.undertow.UndertowWebServer     : Undertow started on port(s) 8080 (http)
+2023-08-17 11:35:09.404  INFO 1752 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2023-08-17 11:35:09.414  INFO 1752 --- [restartedMain] com.yc.AppMain                           : Started AppMain in 5.342 seconds (JVM running for 6.801)
+2023-08-17 11:35:14.285  INFO 1752 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-08-17 11:35:14.287  INFO 1752 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-08-17 11:40:24.491  INFO 16372 --- [restartedMain] com.yc.AppMain                           : Starting AppMain using Java 1.8.0_201 on LAPTOP-F4OC1A0M with PID 16372 (F:\java\S3\spring\yuanma\springboot02\target\classes started by 33714 in F:\java\S3\spring\yuanma\springboot02)
+2023-08-17 11:40:24.492  INFO 16372 --- [restartedMain] com.yc.AppMain                           : The following 1 profile is active: "test"
+2023-08-17 11:40:24.526  WARN 16372 --- [restartedMain] o.s.b.c.config.ConfigDataEnvironment     : Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 116:13]
+2023-08-17 11:40:24.526  WARN 16372 --- [restartedMain] o.s.b.c.config.ConfigDataEnvironment     : Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 112:13]
+2023-08-17 11:40:24.527  INFO 16372 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-08-17 11:40:24.528  INFO 16372 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-08-17 11:40:25.140  INFO 16372 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 11:40:25.140  INFO 16372 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-17 11:40:25.151  INFO 16372 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 0 JDBC repository interfaces.
+2023-08-17 11:40:25.160  INFO 16372 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 11:40:25.160  INFO 16372 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-08-17 11:40:25.169  INFO 16372 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2023-08-17 11:40:25.697  INFO 16372 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1169 ms
+2023-08-17 11:40:28.697  INFO 16372 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-08-17 11:40:28.995  INFO 16372 --- [restartedMain] o.s.b.w.e.undertow.UndertowWebServer     : Undertow started on port(s) 8080 (http)
+2023-08-17 11:40:29.122  INFO 16372 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2023-08-17 11:40:29.132  INFO 16372 --- [restartedMain] com.yc.AppMain                           : Started AppMain in 4.976 seconds (JVM running for 6.361)
+2023-08-17 11:40:33.535  INFO 16372 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-08-17 11:40:33.536  INFO 16372 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-08-17 11:41:05.206  INFO 6668 --- [main] com.yc.biz.AccountBizImplTest            : Starting AccountBizImplTest using Java 1.8.0_201 on LAPTOP-F4OC1A0M with PID 6668 (started by 33714 in F:\java\S3\spring\yuanma\springboot02)
+2023-08-17 11:41:05.207  INFO 6668 --- [main] com.yc.biz.AccountBizImplTest            : The following 1 profile is active: "test"
+2023-08-17 11:41:05.240  WARN 6668 --- [main] o.s.b.c.config.ConfigDataEnvironment     : Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 116:13]
+2023-08-17 11:41:05.240  WARN 6668 --- [main] o.s.b.c.config.ConfigDataEnvironment     : Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 112:13]
+2023-08-17 11:41:05.984  INFO 6668 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 11:41:05.986  INFO 6668 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-17 11:41:06.001  INFO 6668 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 JDBC repository interfaces.
+2023-08-17 11:41:06.012  INFO 6668 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 11:41:06.013  INFO 6668 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-08-17 11:41:06.024  INFO 6668 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2023-08-17 11:41:12.266  INFO 6668 --- [main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2023-08-17 11:41:12.279  INFO 6668 --- [main] com.yc.biz.AccountBizImplTest            : Started AccountBizImplTest in 7.413 seconds (JVM running for 8.258)
+2023-08-17 11:41:12.781  INFO 6668 --- [main] com.yc.biz.AccountBizImplTest            : Account(accountid=2, money=168.0)
+2023-08-17 11:41:12.792  INFO 6668 --- [SpringApplicationShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2023-08-17 11:46:27.997  INFO 21388 --- [restartedMain] com.yc.AppMain                           : Starting AppMain using Java 1.8.0_201 on LAPTOP-F4OC1A0M with PID 21388 (F:\java\S3\spring\yuanma\springboot02\target\classes started by 33714 in F:\java\S3\spring\yuanma\springboot02)
+2023-08-17 11:46:27.998  INFO 21388 --- [restartedMain] com.yc.AppMain                           : The following 1 profile is active: "test"
+2023-08-17 11:46:28.035  WARN 21388 --- [restartedMain] o.s.b.c.config.ConfigDataEnvironment     : Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 116:13]
+2023-08-17 11:46:28.035  WARN 21388 --- [restartedMain] o.s.b.c.config.ConfigDataEnvironment     : Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 112:13]
+2023-08-17 11:46:28.036  INFO 21388 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-08-17 11:46:28.037  INFO 21388 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-08-17 11:46:28.685  INFO 21388 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 11:46:28.685  INFO 21388 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-17 11:46:28.697  INFO 21388 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 JDBC repository interfaces.
+2023-08-17 11:46:28.706  INFO 21388 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 11:46:28.707  INFO 21388 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-08-17 11:46:28.716  INFO 21388 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2023-08-17 11:46:29.248  INFO 21388 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1211 ms
+2023-08-17 11:46:32.216  INFO 21388 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-08-17 11:46:32.545  INFO 21388 --- [restartedMain] o.s.b.w.e.undertow.UndertowWebServer     : Undertow started on port(s) 8888 (http)
+2023-08-17 11:46:32.687  INFO 21388 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2023-08-17 11:46:32.697  INFO 21388 --- [restartedMain] com.yc.AppMain                           : Started AppMain in 5.065 seconds (JVM running for 6.438)
+2023-08-17 11:46:38.725  INFO 21388 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-08-17 11:46:38.727  INFO 21388 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-08-17 11:48:07.271  INFO 9624 --- [main] com.yc.biz.AccountBizImplTest            : Starting AccountBizImplTest using Java 1.8.0_201 on LAPTOP-F4OC1A0M with PID 9624 (started by 33714 in F:\java\S3\spring\yuanma\springboot02)
+2023-08-17 11:48:07.273  INFO 9624 --- [main] com.yc.biz.AccountBizImplTest            : The following 1 profile is active: "test"
+2023-08-17 11:48:07.309  WARN 9624 --- [main] o.s.b.c.config.ConfigDataEnvironment     : Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 116:13]
+2023-08-17 11:48:07.309  WARN 9624 --- [main] o.s.b.c.config.ConfigDataEnvironment     : Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 112:13]
+2023-08-17 11:48:08.110  INFO 9624 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 11:48:08.112  INFO 9624 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-17 11:48:08.126  INFO 9624 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 JDBC repository interfaces.
+2023-08-17 11:48:08.138  INFO 9624 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 11:48:08.139  INFO 9624 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-08-17 11:48:08.150  INFO 9624 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2023-08-17 11:48:14.647  INFO 9624 --- [main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2023-08-17 11:48:14.659  INFO 9624 --- [main] com.yc.biz.AccountBizImplTest            : Started AccountBizImplTest in 7.783 seconds (JVM running for 8.669)
+2023-08-17 11:48:15.138  INFO 9624 --- [main] com.yc.biz.AccountBizImplTest            : Account(accountid=2, money=168.0)
+2023-08-17 11:48:15.151  INFO 9624 --- [SpringApplicationShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2023-08-17 11:50:24.956  INFO 21388 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2023-08-17 11:50:24.969  INFO 21388 --- [Thread-13] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2023-08-17 11:50:25.160  INFO 21388 --- [restartedMain] com.yc.AppMain                           : Starting AppMain using Java 1.8.0_201 on LAPTOP-F4OC1A0M with PID 21388 (F:\java\S3\spring\yuanma\springboot02\target\classes started by 33714 in F:\java\S3\spring\yuanma\springboot02)
+2023-08-17 11:50:25.160  INFO 21388 --- [restartedMain] com.yc.AppMain                           : The following 1 profile is active: "test"
+2023-08-17 11:50:25.162  WARN 21388 --- [restartedMain] o.s.b.c.config.ConfigDataEnvironment     : Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 116:13]
+2023-08-17 11:50:25.162  WARN 21388 --- [restartedMain] o.s.b.c.config.ConfigDataEnvironment     : Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 112:13]
+2023-08-17 11:50:25.460  INFO 21388 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 11:50:25.460  INFO 21388 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-17 11:50:25.465  INFO 21388 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 JDBC repository interfaces.
+2023-08-17 11:50:25.470  INFO 21388 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 11:50:25.470  INFO 21388 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-08-17 11:50:25.473  INFO 21388 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2023-08-17 11:50:25.727  INFO 21388 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 565 ms
+2023-08-17 11:50:26.823  INFO 29496 --- [main] com.yc.biz.AccountBizImplTest            : Starting AccountBizImplTest using Java 1.8.0_201 on LAPTOP-F4OC1A0M with PID 29496 (started by 33714 in F:\java\S3\spring\yuanma\springboot02)
+2023-08-17 11:50:26.825  INFO 29496 --- [main] com.yc.biz.AccountBizImplTest            : The following 1 profile is active: "test"
+2023-08-17 11:50:26.859  INFO 21388 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-08-17 11:50:26.866  WARN 29496 --- [main] o.s.b.c.config.ConfigDataEnvironment     : Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 116:13]
+2023-08-17 11:50:26.866  WARN 29496 --- [main] o.s.b.c.config.ConfigDataEnvironment     : Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 112:13]
+2023-08-17 11:50:27.010  INFO 21388 --- [restartedMain] o.s.b.w.e.undertow.UndertowWebServer     : Undertow started on port(s) 8888 (http)
+2023-08-17 11:50:27.033  INFO 21388 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2023-08-17 11:50:27.041  INFO 21388 --- [restartedMain] com.yc.AppMain                           : Started AppMain in 1.917 seconds (JVM running for 240.782)
+2023-08-17 11:50:27.044  INFO 21388 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-08-17 11:50:27.743  INFO 29496 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 11:50:27.745  INFO 29496 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-17 11:50:27.760  INFO 29496 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 JDBC repository interfaces.
+2023-08-17 11:50:27.771  INFO 29496 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 11:50:27.773  INFO 29496 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-08-17 11:50:27.784  INFO 29496 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2023-08-17 11:50:28.407  INFO 21388 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2023-08-17 11:50:28.416  INFO 21388 --- [Thread-21] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2023-08-17 11:50:28.595  INFO 21388 --- [restartedMain] com.yc.AppMain                           : Starting AppMain using Java 1.8.0_201 on LAPTOP-F4OC1A0M with PID 21388 (F:\java\S3\spring\yuanma\springboot02\target\classes started by 33714 in F:\java\S3\spring\yuanma\springboot02)
+2023-08-17 11:50:28.595  INFO 21388 --- [restartedMain] com.yc.AppMain                           : The following 1 profile is active: "test"
+2023-08-17 11:50:28.597  WARN 21388 --- [restartedMain] o.s.b.c.config.ConfigDataEnvironment     : Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 116:13]
+2023-08-17 11:50:28.597  WARN 21388 --- [restartedMain] o.s.b.c.config.ConfigDataEnvironment     : Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 112:13]
+2023-08-17 11:50:28.827  INFO 21388 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 11:50:28.827  INFO 21388 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-17 11:50:28.831  INFO 21388 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 JDBC repository interfaces.
+2023-08-17 11:50:28.834  INFO 21388 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 11:50:28.834  INFO 21388 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-08-17 11:50:28.837  INFO 21388 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2023-08-17 11:50:28.945  INFO 21388 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 347 ms
+2023-08-17 11:50:32.116  INFO 26312 --- [restartedMain] com.yc.AppMain                           : Starting AppMain using Java 1.8.0_201 on LAPTOP-F4OC1A0M with PID 26312 (F:\java\S3\spring\yuanma\springboot02\target\classes started by 33714 in F:\java\S3\spring\yuanma\springboot02)
+2023-08-17 11:50:32.118  INFO 26312 --- [restartedMain] com.yc.AppMain                           : The following 1 profile is active: "test"
+2023-08-17 11:50:32.155  WARN 26312 --- [restartedMain] o.s.b.c.config.ConfigDataEnvironment     : Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 116:13]
+2023-08-17 11:50:32.155  WARN 26312 --- [restartedMain] o.s.b.c.config.ConfigDataEnvironment     : Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 112:13]
+2023-08-17 11:50:32.157  INFO 26312 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-08-17 11:50:32.157  INFO 26312 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-08-17 11:50:32.795  INFO 26312 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 11:50:32.795  INFO 26312 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-17 11:50:32.807  INFO 26312 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 0 JDBC repository interfaces.
+2023-08-17 11:50:32.816  INFO 26312 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 11:50:32.817  INFO 26312 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-08-17 11:50:32.826  INFO 26312 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2023-08-17 11:50:33.359  INFO 26312 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1202 ms
+2023-08-17 11:50:36.343  INFO 26312 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-08-17 11:50:36.666  INFO 26312 --- [restartedMain] o.s.b.w.e.undertow.UndertowWebServer     : Undertow started on port(s) 8888 (http)
+2023-08-17 11:50:36.795  INFO 26312 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2023-08-17 11:50:36.805  INFO 26312 --- [restartedMain] com.yc.AppMain                           : Started AppMain in 5.047 seconds (JVM running for 6.432)
+2023-08-17 11:50:40.396  INFO 26312 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-08-17 11:50:40.398  INFO 26312 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-08-17 11:51:53.817  INFO 27872 --- [restartedMain] com.yc.AppMain                           : Starting AppMain using Java 1.8.0_201 on LAPTOP-F4OC1A0M with PID 27872 (F:\java\S3\spring\yuanma\springboot02\target\classes started by 33714 in F:\java\S3\spring\yuanma\springboot02)
+2023-08-17 11:51:53.819  INFO 27872 --- [restartedMain] com.yc.AppMain                           : The following 1 profile is active: "test"
+2023-08-17 11:51:53.861  WARN 27872 --- [restartedMain] o.s.b.c.config.ConfigDataEnvironment     : Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 116:13]
+2023-08-17 11:51:53.861  WARN 27872 --- [restartedMain] o.s.b.c.config.ConfigDataEnvironment     : Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 112:13]
+2023-08-17 11:51:53.863  INFO 27872 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-08-17 11:51:53.863  INFO 27872 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-08-17 11:51:54.494  INFO 27872 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 11:51:54.494  INFO 27872 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-17 11:51:54.506  INFO 27872 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 JDBC repository interfaces.
+2023-08-17 11:51:54.515  INFO 27872 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 11:51:54.516  INFO 27872 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-08-17 11:51:54.525  INFO 27872 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2023-08-17 11:51:55.055  INFO 27872 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1192 ms
+2023-08-17 11:51:58.212  INFO 27872 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-08-17 11:51:58.554  INFO 27872 --- [restartedMain] o.s.b.w.e.undertow.UndertowWebServer     : Undertow started on port(s) 8999 (http)
+2023-08-17 11:51:58.688  INFO 27872 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2023-08-17 11:51:58.700  INFO 27872 --- [restartedMain] com.yc.AppMain                           : Started AppMain in 5.305 seconds (JVM running for 6.752)
+2023-08-17 11:51:59.867  INFO 27872 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-08-17 11:51:59.869  INFO 27872 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-08-17 11:59:31.172  INFO 512 --- [restartedMain] com.yc.AppMain                           : Starting AppMain using Java 1.8.0_201 on LAPTOP-F4OC1A0M with PID 512 (F:\java\S3\spring\yuanma\springboot02\target\classes started by 33714 in F:\java\S3\spring\yuanma\springboot02)
+2023-08-17 11:59:31.174  INFO 512 --- [restartedMain] com.yc.AppMain                           : The following 1 profile is active: "test"
+2023-08-17 11:59:31.212  WARN 512 --- [restartedMain] o.s.b.c.config.ConfigDataEnvironment     : Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 116:13]
+2023-08-17 11:59:31.212  WARN 512 --- [restartedMain] o.s.b.c.config.ConfigDataEnvironment     : Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 112:13]
+2023-08-17 11:59:31.214  INFO 512 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-08-17 11:59:31.214  INFO 512 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-08-17 11:59:31.895  INFO 512 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 11:59:31.896  INFO 512 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-17 11:59:31.907  INFO 512 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 0 JDBC repository interfaces.
+2023-08-17 11:59:31.917  INFO 512 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 11:59:31.918  INFO 512 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-08-17 11:59:31.926  INFO 512 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2023-08-17 11:59:32.484  INFO 512 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1270 ms
+2023-08-17 11:59:35.583  INFO 512 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-08-17 11:59:35.923  INFO 512 --- [restartedMain] o.s.b.w.e.undertow.UndertowWebServer     : Undertow started on port(s) 8999 (http)
+2023-08-17 11:59:36.060  INFO 512 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2023-08-17 11:59:36.070  INFO 512 --- [restartedMain] com.yc.AppMain                           : Started AppMain in 5.283 seconds (JVM running for 6.693)
+2023-08-17 11:59:42.210  INFO 512 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-08-17 11:59:42.212  INFO 512 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-08-17 13:56:39.985  INFO 16868 --- [restartedMain] com.yc.AppMain                           : Starting AppMain using Java 1.8.0_201 on LAPTOP-F4OC1A0M with PID 16868 (F:\java\S3\spring\yuanma\springboot02\target\classes started by 33714 in F:\java\S3\spring\yuanma\springboot02)
+2023-08-17 13:56:39.986  INFO 16868 --- [restartedMain] com.yc.AppMain                           : The following 1 profile is active: "test"
+2023-08-17 13:56:40.025  WARN 16868 --- [restartedMain] o.s.b.c.config.ConfigDataEnvironment     : Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 116:13]
+2023-08-17 13:56:40.025  WARN 16868 --- [restartedMain] o.s.b.c.config.ConfigDataEnvironment     : Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 112:13]
+2023-08-17 13:56:40.028  INFO 16868 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-08-17 13:56:40.028  INFO 16868 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-08-17 13:56:40.749  INFO 16868 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 13:56:40.750  INFO 16868 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-17 13:56:40.761  INFO 16868 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 0 JDBC repository interfaces.
+2023-08-17 13:56:40.770  INFO 16868 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 13:56:40.771  INFO 16868 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-08-17 13:56:40.780  INFO 16868 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2023-08-17 13:56:41.328  INFO 16868 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1298 ms
+2023-08-17 13:56:44.478  INFO 16868 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-08-17 13:56:44.834  INFO 16868 --- [restartedMain] o.s.b.w.e.undertow.UndertowWebServer     : Undertow started on port(s) 8999 (http)
+2023-08-17 13:56:44.969  INFO 16868 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2023-08-17 13:56:44.979  INFO 16868 --- [restartedMain] com.yc.AppMain                           : Started AppMain in 5.402 seconds (JVM running for 6.835)
+2023-08-17 13:57:06.615  INFO 16868 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-08-17 13:57:06.618  INFO 16868 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-08-17 13:58:50.174  INFO 8408 --- [main] com.yc.redis.RedisTest                   : Starting RedisTest using Java 1.8.0_201 on LAPTOP-F4OC1A0M with PID 8408 (started by 33714 in F:\java\S3\spring\yuanma\springboot02)
+2023-08-17 13:58:50.176  INFO 8408 --- [main] com.yc.redis.RedisTest                   : The following 1 profile is active: "test"
+2023-08-17 13:58:50.210  WARN 8408 --- [main] o.s.b.c.config.ConfigDataEnvironment     : Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 116:13]
+2023-08-17 13:58:50.210  WARN 8408 --- [main] o.s.b.c.config.ConfigDataEnvironment     : Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 112:13]
+2023-08-17 13:58:50.994  INFO 8408 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 13:58:50.995  INFO 8408 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-17 13:58:51.010  INFO 8408 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 JDBC repository interfaces.
+2023-08-17 13:58:51.021  INFO 8408 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 13:58:51.022  INFO 8408 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-08-17 13:58:51.036  INFO 8408 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2023-08-17 13:58:57.626  INFO 8408 --- [main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2023-08-17 13:58:57.642  INFO 8408 --- [main] com.yc.redis.RedisTest                   : Started RedisTest in 7.817 seconds (JVM running for 8.761)
+2023-08-17 13:58:58.851  INFO 8408 --- [SpringApplicationShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2023-08-17 14:05:52.446  INFO 16868 --- [XNIO-1 task-1] com.yc.aop.RedisUpdateAspect             : 当前执行语句:Account com.yc.biz.AccountBizImpl.deposite(int,double),清空缓存
+2023-08-17 14:06:57.341  WARN 16868 --- [XNIO-1 task-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2023-08-17 14:18:47.350  INFO 16868 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 29 class path changes (0 additions, 29 deletions, 0 modifications)
+2023-08-17 14:18:47.401  INFO 16868 --- [Thread-14] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2023-08-17 14:19:08.029  INFO 16868 --- [restartedMain] com.yc.AppMain                           : Starting AppMain using Java 1.8.0_201 on LAPTOP-F4OC1A0M with PID 16868 (F:\java\S3\spring\yuanma\springboot02\target\classes started by 33714 in F:\java\S3\spring\yuanma\springboot02)
+2023-08-17 14:19:08.029  INFO 16868 --- [restartedMain] com.yc.AppMain                           : No active profile set, falling back to 1 default profile: "default"
+2023-08-17 14:19:08.176  INFO 16868 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 14:19:08.176  INFO 16868 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-17 14:19:08.178  INFO 16868 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JDBC repository interfaces.
+2023-08-17 14:19:08.181  INFO 16868 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 14:19:08.181  INFO 16868 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-08-17 14:19:08.182  INFO 16868 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 Redis repository interfaces.
+2023-08-17 14:19:08.319  INFO 16868 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 288 ms
+2023-08-17 14:19:09.383  INFO 16868 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-08-17 14:19:09.411  INFO 16868 --- [restartedMain] o.s.b.w.e.undertow.UndertowWebServer     : Undertow started on port(s) 8999 (http)
+2023-08-17 14:19:09.411  INFO 16868 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2023-08-17 14:19:09.416  INFO 16868 --- [restartedMain] com.yc.AppMain                           : Started AppMain in 1.417 seconds (JVM running for 1351.271)
+2023-08-17 14:19:09.422  INFO 16868 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-08-17 14:39:41.696  INFO 19112 --- [restartedMain] com.yc.AppMain                           : Starting AppMain using Java 1.8.0_201 on LAPTOP-F4OC1A0M with PID 19112 (F:\java\S3\spring\yuanma\springboot02\target\classes started by 33714 in F:\java\S3\spring\yuanma\springboot02)
+2023-08-17 14:39:41.697  INFO 19112 --- [restartedMain] com.yc.AppMain                           : No active profile set, falling back to 1 default profile: "default"
+2023-08-17 14:39:41.742  INFO 19112 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-08-17 14:39:41.742  INFO 19112 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-08-17 14:39:42.448  INFO 19112 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 14:39:42.449  INFO 19112 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-17 14:39:42.461  INFO 19112 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 JDBC repository interfaces.
+2023-08-17 14:39:42.471  INFO 19112 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 14:39:42.472  INFO 19112 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-08-17 14:39:42.482  INFO 19112 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2023-08-17 14:39:43.036  INFO 19112 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1294 ms
+2023-08-17 14:39:46.312  INFO 19112 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-08-17 14:39:46.663  INFO 19112 --- [restartedMain] o.s.b.w.e.undertow.UndertowWebServer     : Undertow started on port(s) 8999 (http)
+2023-08-17 14:39:46.841  INFO 19112 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2023-08-17 14:39:46.851  INFO 19112 --- [restartedMain] com.yc.AppMain                           : Started AppMain in 5.577 seconds (JVM running for 7.046)
+2023-08-17 14:39:49.967  INFO 19112 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-08-17 14:39:49.969  INFO 19112 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-08-17 14:42:32.747  INFO 18748 --- [restartedMain] com.yc.AppMain                           : Starting AppMain using Java 1.8.0_201 on LAPTOP-F4OC1A0M with PID 18748 (F:\java\S3\spring\yuanma\springboot02\target\classes started by 33714 in F:\java\S3\spring\yuanma\springboot02)
+2023-08-17 14:42:32.748  INFO 18748 --- [restartedMain] com.yc.AppMain                           : No active profile set, falling back to 1 default profile: "default"
+2023-08-17 14:42:32.790  INFO 18748 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-08-17 14:42:32.790  INFO 18748 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-08-17 14:42:33.489  INFO 18748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 14:42:33.490  INFO 18748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-17 14:42:33.511  INFO 18748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 0 JDBC repository interfaces.
+2023-08-17 14:42:33.524  INFO 18748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 14:42:33.526  INFO 18748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-08-17 14:42:33.535  INFO 18748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2023-08-17 14:42:34.137  INFO 18748 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1346 ms
+2023-08-17 14:42:37.324  INFO 18748 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-08-17 14:42:37.715  INFO 18748 --- [restartedMain] o.s.b.w.e.undertow.UndertowWebServer     : Undertow started on port(s) 8999 (http)
+2023-08-17 14:42:37.862  INFO 18748 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2023-08-17 14:42:37.873  INFO 18748 --- [restartedMain] com.yc.AppMain                           : Started AppMain in 5.567 seconds (JVM running for 7.033)
+2023-08-17 14:42:41.003  INFO 18748 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-08-17 14:42:41.006  INFO 18748 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2023-08-17 14:42:41.353  INFO 18748 --- [XNIO-1 task-1] com.yc.aop.RedisUpdateAspect             : 当前执行语句:Account com.yc.biz.AccountBizImpl.withdraw(int,double),清空缓存
+2023-08-17 15:12:18.674  INFO 12580 --- [main] com.yc.redis.RedisTest                   : Starting RedisTest using Java 1.8.0_201 on LAPTOP-F4OC1A0M with PID 12580 (started by 33714 in F:\java\S3\spring\yuanma\springboot02)
+2023-08-17 15:12:18.675  INFO 12580 --- [main] com.yc.redis.RedisTest                   : No active profile set, falling back to 1 default profile: "default"
+2023-08-17 15:12:19.551  INFO 12580 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 15:12:19.553  INFO 12580 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-17 15:12:19.569  INFO 12580 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 JDBC repository interfaces.
+2023-08-17 15:12:19.581  INFO 12580 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 15:12:19.582  INFO 12580 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-08-17 15:12:19.592  INFO 12580 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2023-08-17 15:12:25.970  INFO 12580 --- [main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2023-08-17 15:12:25.984  INFO 12580 --- [main] com.yc.redis.RedisTest                   : Started RedisTest in 7.659 seconds (JVM running for 8.549)
+2023-08-17 15:12:27.127  INFO 12580 --- [SpringApplicationShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2023-08-17 15:14:09.648  INFO 28284 --- [main] com.yc.redis.RedisTest                   : Starting RedisTest using Java 1.8.0_201 on LAPTOP-F4OC1A0M with PID 28284 (started by 33714 in F:\java\S3\spring\yuanma\springboot02)
+2023-08-17 15:14:09.649  INFO 28284 --- [main] com.yc.redis.RedisTest                   : No active profile set, falling back to 1 default profile: "default"
+2023-08-17 15:14:10.504  INFO 28284 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 15:14:10.506  INFO 28284 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-17 15:14:10.520  INFO 28284 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 JDBC repository interfaces.
+2023-08-17 15:14:10.531  INFO 28284 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 15:14:10.533  INFO 28284 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-08-17 15:14:10.543  INFO 28284 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2023-08-17 15:14:16.832  INFO 28284 --- [main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2023-08-17 15:14:16.843  INFO 28284 --- [main] com.yc.redis.RedisTest                   : Started RedisTest in 7.587 seconds (JVM running for 8.411)
+2023-08-17 15:14:17.952  INFO 28284 --- [SpringApplicationShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2023-08-17 15:18:00.991  INFO 2220 --- [main] com.yc.redis.RedisTest                   : Starting RedisTest using Java 1.8.0_201 on LAPTOP-F4OC1A0M with PID 2220 (started by 33714 in F:\java\S3\spring\yuanma\springboot02)
+2023-08-17 15:18:00.992  INFO 2220 --- [main] com.yc.redis.RedisTest                   : No active profile set, falling back to 1 default profile: "default"
+2023-08-17 15:18:01.835  INFO 2220 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 15:18:01.837  INFO 2220 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-17 15:18:01.853  INFO 2220 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 JDBC repository interfaces.
+2023-08-17 15:18:01.870  INFO 2220 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 15:18:01.871  INFO 2220 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-08-17 15:18:01.892  INFO 2220 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2023-08-17 15:18:08.284  INFO 2220 --- [main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2023-08-17 15:18:08.298  INFO 2220 --- [main] com.yc.redis.RedisTest                   : Started RedisTest in 7.639 seconds (JVM running for 8.495)
+2023-08-17 15:18:09.378  INFO 2220 --- [SpringApplicationShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2023-08-17 15:18:29.505  INFO 29212 --- [main] com.yc.redis.RedisTest                   : Starting RedisTest using Java 1.8.0_201 on LAPTOP-F4OC1A0M with PID 29212 (started by 33714 in F:\java\S3\spring\yuanma\springboot02)
+2023-08-17 15:18:29.506  INFO 29212 --- [main] com.yc.redis.RedisTest                   : No active profile set, falling back to 1 default profile: "default"
+2023-08-17 15:18:30.351  INFO 29212 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 15:18:30.352  INFO 29212 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-17 15:18:30.365  INFO 29212 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 JDBC repository interfaces.
+2023-08-17 15:18:30.376  INFO 29212 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 15:18:30.377  INFO 29212 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-08-17 15:18:30.387  INFO 29212 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2023-08-17 15:18:36.854  INFO 29212 --- [main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2023-08-17 15:18:36.867  INFO 29212 --- [main] com.yc.redis.RedisTest                   : Started RedisTest in 7.692 seconds (JVM running for 8.51)
+2023-08-17 15:18:38.116  INFO 29212 --- [SpringApplicationShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2023-08-17 15:24:13.035  INFO 22736 --- [main] com.yc.redis.RedisTest                   : Starting RedisTest using Java 1.8.0_201 on LAPTOP-F4OC1A0M with PID 22736 (started by 33714 in F:\java\S3\spring\yuanma\springboot02)
+2023-08-17 15:24:13.036  INFO 22736 --- [main] com.yc.redis.RedisTest                   : No active profile set, falling back to 1 default profile: "default"
+2023-08-17 15:24:13.814  INFO 22736 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 15:24:13.815  INFO 22736 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-17 15:24:13.829  INFO 22736 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 JDBC repository interfaces.
+2023-08-17 15:24:13.840  INFO 22736 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 15:24:13.842  INFO 22736 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-08-17 15:24:13.852  INFO 22736 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2023-08-17 15:24:20.632  INFO 22736 --- [main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2023-08-17 15:24:20.645  INFO 22736 --- [main] com.yc.redis.RedisTest                   : Started RedisTest in 7.94 seconds (JVM running for 8.75)
+2023-08-17 15:24:21.907  INFO 22736 --- [SpringApplicationShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2023-08-17 15:25:42.312  INFO 28888 --- [main] com.yc.redis.RedisTest                   : Starting RedisTest using Java 1.8.0_201 on LAPTOP-F4OC1A0M with PID 28888 (started by 33714 in F:\java\S3\spring\yuanma\springboot02)
+2023-08-17 15:25:42.314  INFO 28888 --- [main] com.yc.redis.RedisTest                   : No active profile set, falling back to 1 default profile: "default"
+2023-08-17 15:25:43.100  INFO 28888 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 15:25:43.102  INFO 28888 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-17 15:25:43.116  INFO 28888 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 JDBC repository interfaces.
+2023-08-17 15:25:43.129  INFO 28888 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 15:25:43.131  INFO 28888 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-08-17 15:25:43.142  INFO 28888 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2023-08-17 15:25:49.537  INFO 28888 --- [main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2023-08-17 15:25:49.549  INFO 28888 --- [main] com.yc.redis.RedisTest                   : Started RedisTest in 7.564 seconds (JVM running for 8.377)
+2023-08-17 15:25:50.742  INFO 28888 --- [SpringApplicationShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2023-08-17 16:15:39.031  INFO 10912 --- [main] com.yc.redis.RedisTest                   : Starting RedisTest using Java 1.8.0_201 on LAPTOP-F4OC1A0M with PID 10912 (started by 33714 in F:\java\S3\spring\yuanma\springboot02)
+2023-08-17 16:15:39.032  INFO 10912 --- [main] com.yc.redis.RedisTest                   : No active profile set, falling back to 1 default profile: "default"
+2023-08-17 16:15:39.884  INFO 10912 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 16:15:39.886  INFO 10912 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-17 16:15:39.900  INFO 10912 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 JDBC repository interfaces.
+2023-08-17 16:15:39.912  INFO 10912 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-17 16:15:39.913  INFO 10912 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-08-17 16:15:39.923  INFO 10912 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2023-08-17 16:15:46.071  INFO 10912 --- [main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2023-08-17 16:15:46.082  INFO 10912 --- [main] com.yc.redis.RedisTest                   : Started RedisTest in 7.404 seconds (JVM running for 8.23)
+2023-08-17 16:15:47.179  INFO 10912 --- [SpringApplicationShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler

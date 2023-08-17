@@ -1,0 +1,4 @@
+com\yc\redis\RedisTest.class
+com\yc\dao\AccountDaoJdbcTemplateImplTest.class
+com\yc\biz\AccountBizImplTest.class
+com\yc\dao\OpRecordJdbcTemplateImplTest.class
